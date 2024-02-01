@@ -1,0 +1,8 @@
+.homepage_container{
+    background-color: #191d28;
+}
+.homepage_body>p:nth-child(1){
+    color: gray;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
