@@ -1,7 +1,7 @@
 import './App.css';
 import Homepage from './Components/Homepage';
 import { Route,Routes } from 'react-router-dom';
-import Practice from './Components/Practice';
+//import Practice from './Components/Practice';
 
 function App() {
   return (

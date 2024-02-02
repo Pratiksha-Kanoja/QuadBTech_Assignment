@@ -39,11 +39,11 @@ const Header = () => {
                     <FaSortDown />
                 </div>
                 <div>
-                    <p>BTC</p>
+                    <p>ALL</p>
                     <FaSortDown />
                 </div>
                 <div>
-                    <p>BUY BTC</p>
+                    <p>BUY ALL</p>
                 </div>
             </div>
             <div className='header_end'>

@@ -6,7 +6,7 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 35px;
+    padding: 20px 35px;
     background-color: #191d28;
 }
 .header_container>div:nth-child(1){
@@ -82,4 +82,115 @@
     background-color: #3dc6c1;
     border-radius: 20px;
     margin: 5px 2px 5px 30px;
+}
+
+@media screen  and (min-width:700px){
+    .header_container{
+        height: auto;
+    }
+    .header_container>div:nth-child(1){
+        width: 250px;
+    }
+    .header_mid{
+        flex-wrap: wrap;
+        justify-content: center; 
+        width: auto;
+    }
+    .header_mid>div{
+        height: 13px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    .header_end{
+        width: auto; 
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .header_end>div{
+        margin-right: 20px;
+    }
+    .header_end>div:nth-child(1){
+        height: 20px;
+        padding: 5px;
+    }
+    .header_end>div:nth-child(2){
+        height: 20px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .toggle{
+        height: 30px;
+        width: 50px;
+    }
+    .toggle_left{
+        height: 18px;
+        width:18px;
+    }
+    .toggle_right{
+        height: 18px;
+        width: 18px;
+    }
+    
+}
+
+@media screen  and (min-width:200px) and (max-width:699px){
+    .header_container{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header_container>div:nth-child(1){
+        width: 100%;
+    }
+    .header_container>div:nth-child(1)>img{
+        width: 50%;
+    }
+    .header_mid{
+        flex-wrap: wrap;
+        justify-content: center; 
+        width: 100%;
+    }
+    .header_mid>div{
+        height: 13px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    .header_end{
+        width: 100%; 
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .header_end>div{
+        margin-right: 20px;
+    }
+    .header_end>div:nth-child(1){
+        height: 20px;
+        padding: 5px;
+    }
+    .header_end>div:nth-child(2){
+        height: 20px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .toggle{
+        height: 30px;
+        width: 50px;
+    }
+    .toggle_left{
+        height: 18px;
+        width:18px;
+    }
+    .toggle_right{
+        height: 18px;
+        width: 18px;
+    }
+    
 }
