@@ -10,7 +10,7 @@ const Homepage = () => {
 
   async function GetData() {
     try {
-      const response = await axios.get('http://localhost:8000/api/v1/info/get-data')
+      const response = await axios.get('https://quadbtech-assignment-tb4m.onrender.com/api/v1/info/get-data')
       if (response.data.info) {
         setInfo(response.data.info);
       }
