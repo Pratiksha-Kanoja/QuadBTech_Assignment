@@ -9,6 +9,9 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', function (req, res) {
+    res.send('Hello World')
+  })
 
 app.use('/api/v1',router)
 mongoose.connect(process.env.MONGOURL).then(()=>console.log('Dtabase connected'))
